@@ -1,3 +1,6 @@
-import { PI, sum } from './math';
+import { PI, sum, name } from './math';
 
-document.write(sum(PI, PI));
+document.write(`${name} : ${PI} `);
+document.write('<br/>')
+document.write('<br/>')
+document.write(`Double PI constant: ${sum(PI, PI)}`);
