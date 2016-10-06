@@ -1,2 +1,3 @@
 require('./css/style.css')
-document.write("Nice!! Watch mode works!");
+require('./javascript/math.js')
+require('./javascript/index.js')
